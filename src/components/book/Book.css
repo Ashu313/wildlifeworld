@@ -1,0 +1,45 @@
+
+
+.book  .row{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-right: 15%;
+  
+   
+}
+.book .row .image{
+ flex:1 1 40rem;
+}
+.book .row .image img{
+   width:100%;
+ }
+ .book .row form{
+
+   padding:2rem;
+   border-radius: .5rem;
+   box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+    flex:1 1 40rem;
+ }
+
+ .book .row form .inputbox h3{
+   font-size: 20px;
+   padding:1rem 0;
+   color:#666;
+ }
+ .book .row form .inputbox input{
+   width:100%;
+  font-size: 20px;
+   border:1rem solid rgba(0,0,0,.1);
+   font-size: 20px;
+   color: orange;
+   margin-left: -2%;
+   text-transform: none;
+ }
+.btn{
+  background-color: green;
+  font-size: 20px;
+padding: 1.5rem;
+  color: white;
+}

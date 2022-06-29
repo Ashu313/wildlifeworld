@@ -1,0 +1,62 @@
+.image-heading{
+    background-image: url("/public/images/pic4.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    height:100%;
+   width: 100%;
+   margin-top: 3%;
+   position: relative;
+    z-index: -2;
+}
+.image-heading .containerdetail{
+    display: flex;
+    width: 100%;
+    justify-content: space-between; 
+    align-items: center;
+    /* text-align: center; */
+    /* flex: 1 1 23rem; */
+    /* padding: 2rem; */
+    /* gap: 20rem; */
+    /* text-align: center; */
+    flex-wrap: wrap;
+    height: 100%;
+}
+.image-heading h1 {
+    font-size: 40px;
+    text-transform: capitalize;
+    text-transform: capitalize;
+    word-spacing: 30px;
+  }
+
+  .image-heading span {
+    text-transform: capitalize;
+    word-spacing: 30px;
+  }
+
+  .image-heading button{
+    background-color: black;
+    color: #fff;
+    font-weight: 400;
+    padding: 15px 30px;
+    word-spacing: 5px;
+  }
+
+  .image-heading a {
+    font-size: 40px;
+    color: #31b675;
+    cursor: pointer;
+  }
+
+ 
+  /*.image-heading::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.4);
+    height: 30vh;
+    width: 100%;
+    z-index: -1;
+  }*/

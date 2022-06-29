@@ -1,0 +1,48 @@
+
+.container1 .heading{
+    display: block;
+}
+.container1 .heading h1{
+  
+    text-align: center;
+    font-size: 30px;
+}
+.content-grid{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+    gap: 1.5rem;
+}
+.content-grid h2{
+    font-size: 30px;
+   color: black;
+}
+.content-grid p{
+    color: black;
+}
+
+.line{
+    color: green;
+}
+.box2{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+    padding: 40px 20px;
+}
+.details{
+    text-align: center;
+  
+}
+@media screen and (max-width:826px)
+{
+     .content-grid{
+        display: flex;
+        flex-wrap: wrap;
+     }
+     .content-grid h2{
+        font-size: 0.8rem;
+     }
+}

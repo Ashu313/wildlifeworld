@@ -1,0 +1,88 @@
+.aboutcard h4{
+    color: #31b675;
+    
+}
+.aboutcard h4{
+    font-size: 30px;
+   
+   
+}
+
+
+.aboutcard h1{
+    font-size: 18px;
+    font-weight: 100;
+}
+.aboutcard span{
+    font-weight: bold;
+}
+.aboutcard p{
+    font-weight: 300;
+    color: black;
+    font-size: 16px;
+}
+.aboutcard.row.row1{
+    display: flex;
+    order: 2;
+    padding: 2rem;
+}
+
+
+
+li{
+    font-size: 17px;
+    margin-top: 2%;;
+}
+.aboutcard .row .image{
+
+
+   flex: 1 1 42rem;
+   order: 1;
+}
+.aboutcard img{
+   width: 100%;
+   
+  
+
+
+
+}
+
+.aboutcard .row1{
+    padding-right: 30px; 
+    margin-top: 2%;
+}
+
+.aboutcard .row{
+   
+    flex-wrap: wrap;
+    flex:1 1 42rem;
+  
+   
+
+}
+.aboutcard{
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    
+   
+    
+}
+
+.row .btn1{
+text-align: center;
+margin-top: 3%;
+}
+.secondary-btn{
+
+    padding: 1rem 1rem;
+    font-size: 18px;
+    background-color: #31b675;
+    color: white;
+    justify-content: center;
+}
+.secondary-btn i{
+    font-size: 16px;
+}
+

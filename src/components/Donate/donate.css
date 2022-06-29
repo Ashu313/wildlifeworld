@@ -1,0 +1,112 @@
+
+.donate{
+width: 100%;
+height: 100%;
+background-image:url(https://twimg0-a.akamaihd.net/a/1350072692/t1/img/front_page/jp-mountain@2x.jpg);
+background-size: cover;
+background-attachment:fixed;
+margin: 0;
+padding: 0;
+display: flex;
+}
+
+.donate-content{
+  justify-content: center;
+  align-items: center;
+ margin-top: 5%;
+ margin-bottom: 5%;
+
+}
+p{
+  font-size: 18px;
+}
+.donate-content h1{
+  font-size: 20px;
+}
+.donate-content h2{
+  font-size: 20px;
+}
+.donate .donate-content h1,h2,p{
+  text-align:center;
+  color: white;
+  margin-top: 2%;
+ 
+}
+.donate-content button{
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  cursor: pointer;
+  margin-left: auto;
+  color: white;
+  background-color: green;
+  margin-top: 2%;
+  padding: 2rem 2rem;
+  font-size: 20px;
+}
+.donate-image{
+  
+visibility: hidden;
+}
+.bu{
+  text-align: center;
+}
+
+
+
+
+
+@media screen and (max-width:616px) {
+ 
+  .donate{
+    display: block;
+  }
+  .donate-content button{
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    cursor: pointer;
+    margin-left: auto;
+    color: white;
+    background-color: green;
+    margin-top: 2%;
+   
+    font-size: 18px;
+  }
+  
+}
+/*.donate::before{
+  background-color: rgba(0, 0, 0, 0.2);
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}*/
+/*
+.donate-image img{
+    width: 100%;
+    height: 100%;
+}
+.donate-image::before{
+    background-color: rgba(0, 0, 0, 0.8);
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+  }*/
+ /* .donate-content{
+    justify-content: center;
+    align-items: center;
+  }
+  .donate-content h1,h2,p{
+    text-align: center;
+  }
+  .donate-content button{
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    cursor: pointer;
+}
+  */

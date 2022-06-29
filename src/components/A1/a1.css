@@ -1,0 +1,51 @@
+.about-us .box h1{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+}
+.about-us .box p{
+    color: black;
+}
+.about-us{
+    display: flex;
+ 
+   gap: 1.5rem;
+   padding: 4rem;
+
+}
+.about-us img{
+justify-content: center;
+align-items: center;
+display: flex;
+}
+.about-us .image{
+    display: flex;
+    justify-content: center;
+}
+.button1{
+   text-align: center;
+}
+.button1 button{
+    padding: 2rem 2rem;
+    background-color: green;
+    color: rgb(236, 236, 236);
+    font-size: 20px;
+    border-radius: 0.5rem;
+    margin-top: 3%;
+    cursor: pointer;
+  
+}
+.box p{
+    font-size: 18px;
+}
+@media screen and (max-width:420px)
+{
+    .about-us{
+        display: block;
+     
+       gap: 1.5rem;
+       padding: 4rem;
+    
+    }
+    
+}
