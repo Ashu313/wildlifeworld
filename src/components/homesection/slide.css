@@ -152,7 +152,7 @@ textarea,input{
     }
 }
 
-@media screen  and (max-width:390px){
+@media screen  and (max-width:420px){
     
     .slide-form {
         display: flex;
@@ -161,4 +161,13 @@ textarea,input{
         /* width: 75%; */
         height: 55vh;
     }
+    .slider img {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    
+    
 }
