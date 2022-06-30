@@ -40,13 +40,13 @@
 @media screen and (max-width:768px)
  {
     .slider{
-        height: 65vh;
+      
         
         margin-right: 0;
         margin-left: 0;
     }
     .slide img{
-        height: 65vh;
+       
         margin-right: 0;
         width: 100%;
        
@@ -129,12 +129,7 @@ textarea,input{
 
 @media screen  and (max-width:768px){
     
-    .slider{
-        height: 65vh;
-    }
-    .slider img{
-        height: 85vh;
-    }
+   
     .slide-form{
         display: flex;
         left: 5%;
