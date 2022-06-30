@@ -93,7 +93,9 @@ header{
 }
 
 .container-fluid{
-  margin-top: 6%
+  margin-top: 6%;
+  flex-wrap: wrap;
+  
 }
 .container i{
   margin: 0 5px 0 15px;
@@ -142,7 +144,7 @@ header .contact{
 }
 header .contact a{
   color: white;
-  font-size: 25px;
+  font-size: 18px;
   margin-top: 0;
   margin-left: 4%;
   
@@ -168,6 +170,7 @@ header .contact a:hover{
 
 .container-fluid{
   justify-content: center;
+
   
 }
 .flex_space{
@@ -210,7 +213,7 @@ header .contact a:hover{
     header .navbar a{
       display: block;
       padding: 1.7rem;
-      font-size: 20px;
+      font-size: 16px;
     }
     .container{
     
@@ -249,17 +252,17 @@ header .contact a:hover{
      z-index: -1;
     }
     .container .login-area{
-      font-size:20px;
+      font-size:16px;
       
      
       
     }
 
    .navbar a{
-    font-size: 15px;
+    font-size: 16px;
    }
     .container .register-area{
-      font-size: 20px;
+      font-size: 16px;
      
     }
     /*.container .contact{
@@ -323,10 +326,10 @@ header .contact a:hover{
  
 }
 .text h3{
-  font-size: 45px;
+  font-size: 20px;
 }
 .text a{
-  font-size:25px;
+  font-size:16px;
   color: grey;
 }
 i{
