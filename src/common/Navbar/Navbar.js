@@ -111,9 +111,9 @@ const Navbar=()=>{
          
    
        
-   </div>*/
+   </div>
 
-   /*<div className="container-fluid flex_space ">
+   <div className="container-fluid flex_space ">
 
 <div className="logo">
   <img src="https://wildlifesos.org/wp-content/uploads/2020/11/wsos-Bear-Logo-border-85x130-1.png" alt="animalphoto"></img>
