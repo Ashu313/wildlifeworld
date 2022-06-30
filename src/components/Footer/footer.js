@@ -11,15 +11,14 @@ return(
 <div className="box-container">
 
     <div className="box">
-        <h3>about us</h3>
-        <p>Our mission is to create a better world for animals</p>
-        <ul>
-        <li>We end the needless suffering of animals</li>
-        <li>We influence decision makers to put animals on the global agenda</li>
-        <li>We help the world see how important animals are to all of us</li>
-        <li>We move the world to protect animals</li>
-
-        </ul>
+    <h3>quick links</h3>
+        <NavLink to="/">home</NavLink>
+        <NavLink to="/book">book</NavLink>
+        <NavLink to="/About">About us</NavLink>
+        <NavLink to="/services">services</NavLink>
+        <NavLink to="/gallery">gallery</NavLink>
+        <NavLink to="/review">review</NavLink>
+        <NavLink to="/contact">contact</NavLink>
     
     </div>
     <div className="box">
@@ -30,7 +29,7 @@ return(
         <NavLink to="/elephant/elephants/elephnats.html">elephants</NavLink>
     </div>
     <div className="box">
-        <h3>quick links</h3>
+    <h3>quick links</h3>
         <NavLink to="/">home</NavLink>
         <NavLink to="/book">book</NavLink>
         <NavLink to="/About">About us</NavLink>

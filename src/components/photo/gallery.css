@@ -25,7 +25,7 @@ background-color: lightblue
      position: relative; 
     object-fit: fill;
     border: 1rem solid black;
-    flex: 1 1 50rem;
+    flex: 1 1 30rem;
   }
 .gallery img{
   height: 100%;
