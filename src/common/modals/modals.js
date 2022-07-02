@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./modal.css";
+import "./modals.css";
 
 const Modal=({ setOpenModal })=>
  {
