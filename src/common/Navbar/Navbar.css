@@ -38,7 +38,7 @@ header{
   color: white;
   font-size: 16px;
   padding:2rem 2rem ;
-  display: inline-block;
+  display: initial;
   margin-left: 0;
   margin-right: 0;
  }
@@ -61,6 +61,9 @@ header{
   display: none;
 }
 
+.header .navbar .active{
+  opacity: 1;
+}
 .menu-icons{
   display: none;
   color: white;
@@ -189,6 +192,7 @@ header .contact a:hover{
      
       font-size: 2.5rem;
       cursor: pointer;
+      margin-left:3%;
      
      }
      .fa-times {
@@ -217,6 +221,12 @@ header .contact a:hover{
       display: block;
       padding: 1.7rem;
       font-size: 16px;
+      background: black;
+    
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+  
+    margin: 1.5rem 0;
     }
     .container{
     
@@ -231,13 +241,18 @@ header .contact a:hover{
      
       left: 0;
       right: 0;
+      width: 100%;
       display: block;
       opacity: 1;
-      position:relative;
+    
       transition: all 0.5s ease;
       z-index: 100;
       
     }
+    .d .active{
+      display: none;
+    }
+   
   }
 
 
@@ -347,51 +362,4 @@ i{
 display: flex;
 flex-wrap: wrap;
 }
-/*
-@media screen and (max-width: 768px) {
-  /*--------header--------*/
-   /*.container-fluid {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .contact-details {
-    justify-content: center;
-    align-items: center;
-  }
-  .box a {
-    font-size: 20px;
-  }
-  .box i {
-    font-size: 30px;
-    margin-right: 5px;
-    margin-top: 10px;
-    margin-left: 5px;
-  }
-  
-  /*--------header--------*//*
-}
-@media screen and (max-width: 450px) {
-  /*--------header--------*/
-  /* .container-fluid {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .contact-details {
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .box a {
-    font-size: 20px;
-  }
-  .box i {
-    font-size: 20px;
-    margin-right: 5px;
-    margin-top: 25px;
-    
-  }*/
-  
-  /*--------header--------
-}*/
+

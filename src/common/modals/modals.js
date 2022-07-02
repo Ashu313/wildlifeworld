@@ -73,10 +73,18 @@ const Modal=({ setOpenModal })=>
 
 
         <div className="icons-sign">
+        <div>
         <i class="fa-brands fa-google"></i>
+        </div>
+        <div>
         <i class="fa-solid fa-envelope"></i>
+        </div>
+        <div>
         <i class="fa-brands fa-facebook"></i>
+        </div>
+        <div>
         <i class="fa-brands fa-instagram-square"></i>
+        </div>
         </div>
       </div>
 

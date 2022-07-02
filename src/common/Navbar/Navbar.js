@@ -99,7 +99,7 @@ const Navbar=()=>{
 
     
          
-         <div className="d">
+         <div  className={click?"d active":"d"}>
      <i class="fas fa-user" onClick={()=>{
             setModelOpen(true);
            }}></i>

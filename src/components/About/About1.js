@@ -37,11 +37,7 @@ OUR APPROACH TO SAVING WILDLIFE</h4>
      </div>
      <div className='row image'>
        <img src='https://wildlifesos.org/wp-content/uploads/2020/03/wildlife-sos-approach.png' alt='' />
-       <div className='control-btn'>
-         <button className='prev'>
-           <i className='fas fa-play'></i>
-         </button>
-       </div>
+       
     
      </div>
    </div>

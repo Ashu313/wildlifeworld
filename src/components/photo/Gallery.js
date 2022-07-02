@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import Card from "./Card";
 import "./gallery.css"
 import GalleryData from "./GalleryData";
@@ -28,8 +29,16 @@ return(
             return <Card imgaes={value.img} title={value.title} />
           })}
         </div>
+        <div className="donate-content">
+        <div className="bu">
+          <NavLink to="/Gallery">
+          <button type="submit">LOAD MORE</button>
+          </NavLink>
+          </div>
+          </div>
         </div>
-    </div>
+        </div>
+    
    </section>
 )
 
