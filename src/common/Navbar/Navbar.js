@@ -3,6 +3,8 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { useState } from "react";import "./Navbar.css"
+
+import Modal from "../modals/modal";
 /*
    <div className="container">
 <div className={click?"nav-menu1 active":"nav-menu1"}>
@@ -65,6 +67,7 @@ import { useState } from "react";import "./Navbar.css"
 const Navbar=()=>{
 
     const [click,setClick]=useState(false);
+    const [modalOpen,setModelOpen]=useState(false);
   const handleClick=()=>setClick(!click);
   const closeMobileMenu=()=>setClick(false);
 
@@ -77,9 +80,7 @@ const Navbar=()=>{
   <i className={click?"fas fa-times":"fas fa-bars"}></i>
          
         
-         </div>
-      
-     
+
       
      
        <div className="navbar" >
@@ -93,25 +94,23 @@ const Navbar=()=>{
                <NavLink to="/contact"  onClick={closeMobileMenu}>Contact</NavLink>
        </div>
        </div>
+
+
+       </div>
+         
+         <div className="d">
+     <i class="fas fa-user" onClick={()=>{
+            setModelOpen(true);
+           }}></i>
+           
+            
+            {modalOpen &&<Modal setOpenModal={setModelOpen}/>}
+       </div>
+        
+       
     
    </header>
-   <div className="container">
-<div className={click?"nav-menu1 active":"nav-menu1"}>
-       <div className="login-area">
-       <NavLink to="/Sign-in" ><i class="fa-solid fa-chevron-right"></i>Sign-in</NavLink>
-       </div>
-   
-       <div className="register-area">
-       <NavLink to="/Register" >
-       <i class="fa-solid fa-chevron-right"></i> Register</NavLink>
-       </div>
-      
-       </div>
 
-         
-   
-       
-   </div>
 
    <div className="container-fluid flex_space ">
 

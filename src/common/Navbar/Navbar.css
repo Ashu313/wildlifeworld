@@ -66,6 +66,9 @@ header{
   color: white;
 }
 
+#user{
+  margin-left: 20%;
+}
 .log img{
   width: 100%;
   height: 100%;
