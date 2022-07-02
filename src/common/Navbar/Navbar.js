@@ -4,7 +4,8 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import { useState } from "react";import "./Navbar.css"
 
-import Modal from "../modals/modal";
+
+import Modal from "../modals/modals";
 /*
    <div className="container">
 <div className={click?"nav-menu1 active":"nav-menu1"}>
