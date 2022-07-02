@@ -12,6 +12,8 @@ import About1 from './components/About/About1';
 import Gallery from './components/photo/Gallery';
 import Testimonial from './components/Testimonials/Testimonial';
 import Contact from './components/contact/contact';
+import ScrollToTop from './common/Scrolltotop/scroll';
+import Modal from './common/modals/modal';
 
 
 function App() {
@@ -22,6 +24,7 @@ function App() {
 
 
     <Router>
+      <ScrollToTop></ScrollToTop>
     <Navbar></Navbar>
    
           
