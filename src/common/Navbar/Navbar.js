@@ -80,7 +80,7 @@ const Navbar=()=>{
    <div className="menu-icons"  onClick={handleClick}  >
   <i className={click?"fas fa-times":"fas fa-bars"}></i>
          
-        
+  </div>
 
       
      
@@ -97,7 +97,7 @@ const Navbar=()=>{
        </div>
 
 
-       </div>
+    
          
          <div className="d">
      <i class="fas fa-user" onClick={()=>{
