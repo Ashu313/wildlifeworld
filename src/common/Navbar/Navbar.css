@@ -249,7 +249,9 @@ header .contact a:hover{
       z-index: 100;
       
     }
-    .d .active{
+
+
+    .d.active{
       display: none;
     }
    
