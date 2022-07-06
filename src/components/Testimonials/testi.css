@@ -1,9 +1,9 @@
 .container-review .box{
     display: flex;
     flex-wrap: wrap-reverse;
-    gap: 1.5rem;
+    gap: 2.5rem;
     flex: 1 1 40rem;
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    box-shadow: 0 1.5rem 1rem rgba(0, 0, 0, 0.15);
     margin-top: 5%;
    
 }
@@ -12,6 +12,7 @@
     display: flex;
     flex: 1 1 50rem;
     flex-wrap: wrap;
+    gap:1.5rem;
 }
 span{
     font-size: 20px;
@@ -20,4 +21,17 @@ span{
 width: 100%;
 border-radius: 50%;
 height: 100%;
+}
+.description p{
+    color: black;
+   
+
+}
+.name{
+    text-align: center;
+    
+}
+h4{
+    font-size: 20px;
+    margin-top: 3%;
 }

@@ -13,6 +13,11 @@ import Gallery from './components/photo/Gallery';
 import Testimonial from './components/Testimonials/Testimonial';
 import Contact from './components/contact/contact';
 import ScrollToTop from './common/Scrolltotop/scroll';
+import Leopard from './common/animal/leopard';
+import Panda from './common/animal/Panda/Panda';
+import Empty from './common/Empty/empty';
+import Allitems from './components/Packages/packages';
+
 
 
 
@@ -29,13 +34,18 @@ function App() {
    
           
           <Routes>
-            <Route exact path="/"element={<Home/>} />
+            <Route path="/"element={<Home/>} />
             <Route exact path="/about"element={<About1/>} />
             <Route exact path="/gallery"element={<Gallery/>} />
             <Route exact path="/Testimonials"element={<Testimonial/>} />
+            <Route exact path="/packages"element={<Allitems/>} />
             <Route exact path="/contact"element={<Contact/>} />
           
+            <Route exact path="/animal/leopard"element={<Leopard/>} />
+            <Route exact path="/animal/panda"element={<Panda/>} />
 
+            <Route exact path="/animal/elephants"element={<Empty/>} />
+             <Route exact path="/animal/reptiles"element={<Empty/>} />
             
           
           </Routes>

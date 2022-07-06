@@ -1,20 +1,20 @@
 import React from "react";
-import Hero from "./Hero";
+
 import ImageData from "./ImageData";
 import Slide from "./Slide"
-import AboutCard from "../About/AboutCard";
-import Gallery from "../photo/Gallery";
-import Testimonial from "../Testimonials/Testimonial";
+
+
+
 import Downlood from "../download/download";
 import Footer from "../Footer/footer";
-import Contact from "../contact/contact";
-//import Headtitle from "../../common/Headtitle/Headtitle";
+
 import Works from "../Works/works";
 import Pic from "../../common/picture/pic";
 import Donate from "../Donate/donate";
 import Subscribe from "../subscribe/subscribe";
 import Book from "../book/book";
 import A1 from "../A1/A1";
+import Allitems from "../Packages/packages";
 const Home=()=>{
 
     return(
@@ -24,7 +24,8 @@ const Home=()=>{
     <A1></A1>
      
      <Book></Book>
-       <Gallery></Gallery>
+
+   <Allitems></Allitems>
        <Downlood></Downlood>
     
        <Works></Works>

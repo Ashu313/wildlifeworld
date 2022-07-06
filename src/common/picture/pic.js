@@ -1,11 +1,16 @@
 import React from "react"
 import data from "./picdata"
 import "./pic.css"
-import Slider from "react-slick"
+/*import Slider from "react-slick"
 import "slick-carousel/slick/slick.css"; 
-import "slick-carousel/slick/slick-theme.css";
+import "slick-carousel/slick/slick-theme.css";*/
 
-const Pic = () => {
+const Pic=()=>{
+  return(
+    <h1>dhhd</h1>
+  )
+}
+/*const Pic = () => {
     const settings = {
       dots: true,
       infinite: false,
@@ -59,5 +64,5 @@ const Pic = () => {
    
   )
 }
-
+*/
 export default Pic;

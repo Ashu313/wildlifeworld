@@ -89,7 +89,7 @@ const Navbar=()=>{
        <NavLink to="/" onClick={closeMobileMenu}>Home</NavLink>
                <NavLink to="/About" onClick={closeMobileMenu}>About</NavLink>
                <NavLink to="/gallery"  onClick={closeMobileMenu}>Gallery</NavLink>
-               <NavLink to="/Pack"  onClick={closeMobileMenu}>services</NavLink>
+               <NavLink to="/Packages"  onClick={closeMobileMenu}>Packages</NavLink>
                <NavLink to="/Testimonials"  onClick={closeMobileMenu}>review</NavLink>
    
                <NavLink to="/contact"  onClick={closeMobileMenu}>Contact</NavLink>

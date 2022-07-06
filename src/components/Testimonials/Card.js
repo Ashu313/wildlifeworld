@@ -6,7 +6,8 @@ const Card=(props)=>{
 
     return (
         <>
-        
+     
+       
        <div className="box">
     <i className="fa fa-quote-left"></i>
         <div className="description">

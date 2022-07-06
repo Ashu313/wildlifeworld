@@ -1,17 +1,32 @@
 import React from "react";
 import AboutCard from "./AboutCard";
 import "./about.css"
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Footer from "../Footer/footer";
-import Headtitle from "../../common/Headtitle/Headtitle";
+import HeadTitle from "../../common/Headtitle/Headtitle";
 
 const About1=()=>{
 
  
     return(
         <>
-         <Headtitle></Headtitle>
+        
         <section>
+        <HeadTitle></HeadTitle>
+        <h1 class="heading">
+            <span>A</span>
+            <span>B</span>
+            <span>O</span>
+            <span>U</span>
+            
+            <span>T</span>
+            
+            <span>U</span>
+            <span>S</span>
+            
+
+        </h1>
+     
        <AboutCard></AboutCard>
        <div className='aboutcard  flex_space'>
      
@@ -37,7 +52,7 @@ OUR APPROACH TO SAVING WILDLIFE</h4>
      </div>
      <div className='row image'>
        <img src='https://wildlifesos.org/wp-content/uploads/2020/03/wildlife-sos-approach.png' alt='' />
-       
+     
     
      </div>
    </div>
@@ -66,18 +81,14 @@ OUR APPROACH TO SAVING WILDLIFE</h4>
    
 </ul>
 <div className="btn1">
-       <NavLink to="/About"><button className='secondary-btn'>
+       <Link to="/about/1"><button className='secondary-btn'>
          Explore More <i className='fas fa-long-arrow-alt-right'></i>
-       </button></NavLink>
+       </button></Link>
        </div>
      </div>
      <div className='row image'>
        <img src='https://wildlifesos.org/wp-content/uploads/2021/11/map-websitte.png' alt='' />
-       <div className='control-btn'>
-         <button className='prev'>
-           <i className='fas fa-play'></i>
-         </button>
-       </div>
+      
     
      </div>
    </div>

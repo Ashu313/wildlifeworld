@@ -2,15 +2,13 @@ import React from "react";
 import Card from "./Card";
 import "./gallery.css"
 import GalleryData from "./GalleryData";
-import Footer from "../Footer/footer";
-import HeadTitle from "../../common/Headtitle/Headtitle";
 
-const Gallery=()=>{
+
+const Gallery1=()=>{
 return(
     
-   
+   <>
   <section>
-    <HeadTitle></HeadTitle>
       <h1 class="heading">
             <span>G</span>
             <span>A</span>
@@ -31,11 +29,19 @@ return(
             return <Card imgaes={value.img} title={value.title} />
           })}
         </div>
-        </div>
-    </div>
-    <Footer></Footer>
+      </div>
+    
+        <div className="donate-content">
+        <div className="bu">
+          <button type="submit">LOAD MORE</button>
+          </div>
+          </div>
+          </div>
+   
    </section>
+   
+   </>
 )
 
 }
-export default Gallery;
+export default Gallery1;

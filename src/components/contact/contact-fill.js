@@ -28,6 +28,18 @@ const ContactFrom = () => {
   return (
     <>
       <section className='contact-form'>
+      <h1 class="heading">
+            <span>C</span>
+            <span>O</span>
+            <span>N</span>
+            <span>T</span>
+             <span>A</span>
+            <span>C</span>
+            <span>T</span>
+            
+
+        </h1>
+       
         <div className='container-form'>
           <div className='main-content'>
             <h2>Contact From</h2>

@@ -23,10 +23,10 @@ return(
     </div>
     <div className="box">
         <h3>Our work</h3>
-        <NavLink to="/">leopards</NavLink>
-        <NavLink to="/l">bears</NavLink>
-        <NavLink to="/">reptiles</NavLink>
-        <NavLink to="/">elephants</NavLink>
+        <NavLink to="/animal/leopard">leopards</NavLink>
+        <NavLink to="/animal/panda">Panda</NavLink>
+        <NavLink to="/animal/reptiles">reptiles</NavLink>
+        <NavLink to="/animal/elephants">elephants</NavLink>
     </div>
     <div className="box">
     <h3>quick links</h3>

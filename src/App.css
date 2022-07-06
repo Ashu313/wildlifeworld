@@ -12,6 +12,9 @@ body{
 
   
 }
+i{
+  cursor: pointer;
+}
 
 :root{
   --orange:#ffa500;

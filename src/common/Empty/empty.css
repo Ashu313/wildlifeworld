@@ -1,0 +1,18 @@
+.error{
+    height: 50vh;
+    justify-content: center;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+    background: darkslategray;
+}
+
+.error h1{
+    font-size: 50px;
+    color:crimson;
+    margin-top:25%;
+    text-align: center;
+    
+}

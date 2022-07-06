@@ -24,7 +24,7 @@ const A1=()=>{
 
 <div className="box">
     <div className="image">
-    <img src="https://wildlifesos.org/wp-content/uploads/2020/03/our-mission.png"></img>
+    <img src="https://wildlifesos.org/wp-content/uploads/2020/03/our-mission.png" alt=""/>
     </div>
     <h1>OUR VISION</h1>
     <p>Coexisting in the same landscape in a manner in which both conservation and welfare is addressed for man and wildlife.</p>
@@ -33,7 +33,7 @@ const A1=()=>{
 
 <div className="box">
 <div className="image">
-    <img src="https://wildlifesos.org/wp-content/uploads/2020/03/our-mission.png"></img>
+    <img src="https://wildlifesos.org/wp-content/uploads/2020/03/our-mission.png" alt=""/>
     </div>
     <h1>OUR VISION</h1>
     <p>Coexisting in the same landscape in a manner in which both conservation and welfare is addressed for man and wildlife.</p>
@@ -41,7 +41,7 @@ const A1=()=>{
 </div>
 <div className="box">
 <div className="image">
-    <img src="https://wildlifesos.org/wp-content/uploads/2020/03/our-mission.png"></img>
+    <img src="https://wildlifesos.org/wp-content/uploads/2020/03/our-mission.png" alt=""/>
     </div>
     <h1>OUR VISION</h1>
     <p>Coexisting in the same landscape in a manner in which both conservation and welfare is addressed for man and wildlife.</p>
