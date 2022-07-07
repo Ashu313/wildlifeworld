@@ -17,6 +17,7 @@ import Leopard from './common/animal/leopard';
 import Panda from './common/animal/Panda/Panda';
 import Empty from './common/Empty/empty';
 import Allitems from './components/Packages/packages';
+import Get from './components/getinvolve/get';
 
 
 

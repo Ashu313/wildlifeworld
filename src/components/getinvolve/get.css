@@ -1,0 +1,23 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+/* Demo purposes only */
+.eeee{
+  background-image:url(https://twimg0-a.akamaihd.net/a/1350072692/t1/img/front_page/jp-mountain@2x.jpg);
+}
+
+.slick-slide{
+    margin: 0px 0px;
+}
+
+.slick-arrow .slick-next{
+  background-color: green;
+}
+
+.lazyloaded {
+  opacity: 1;
+  transition: 400ms;
+  transition-delay: 0ms;
+}
+.snip1584 img{
+padding: 1rem;
+}

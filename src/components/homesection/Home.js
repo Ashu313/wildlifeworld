@@ -15,6 +15,7 @@ import Subscribe from "../subscribe/subscribe";
 import Book from "../book/book";
 import A1 from "../A1/A1";
 import Allitems from "../Packages/packages";
+import Get from "../getinvolve/get";
 const Home=()=>{
 
     return(
@@ -30,6 +31,7 @@ const Home=()=>{
     
        <Works></Works>
        <Pic></Pic>
+       <Get></Get>
        <Subscribe></Subscribe>
        <Donate></Donate>
      <Footer></Footer>
