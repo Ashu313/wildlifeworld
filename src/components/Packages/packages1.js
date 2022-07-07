@@ -1,15 +1,13 @@
 import React from "react";
 import Tdata from "./packagedata";
 import Card from "./Card";
-import HeadTitle from "../../common/Headtitle/Headtitle";
 
-import Footer from "../Footer/footer";
 
 const Allitems=()=>{
     return(
         <>
         <section>
-            <HeadTitle></HeadTitle>
+         
         <h1 class="heading">
             <span>P</span>
             <span>A</span>
@@ -30,7 +28,7 @@ const Allitems=()=>{
             })}
         </div>
         </section>
-        <Footer></Footer>
+        
         </>
     )
 }

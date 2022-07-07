@@ -14,7 +14,7 @@ import Donate from "../Donate/donate";
 import Subscribe from "../subscribe/subscribe";
 import Book from "../book/book";
 import A1 from "../A1/A1";
-import Allitems from "../Packages/packages";
+import Allitems from "../Packages/packages1";
 import Get from "../getinvolve/get";
 const Home=()=>{
 

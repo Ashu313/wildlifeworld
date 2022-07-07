@@ -322,8 +322,10 @@ header .contact a:hover{
   
  
 }
-.box {
+.contact-details .box {
   align-items: center;
+  margin-left: unset;
+
 }
 .logo{
   display: flex;
@@ -363,5 +365,6 @@ i{
 .contact-details {
 display: flex;
 flex-wrap: wrap;
+position: inherit;
 }
 

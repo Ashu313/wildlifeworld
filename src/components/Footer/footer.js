@@ -13,7 +13,7 @@ return(
     <div className="box">
     <h3>quick links</h3>
         <NavLink to="/">home</NavLink>
-        <NavLink to="/book">book</NavLink>
+      
         <NavLink to="/About">About us</NavLink>
         <NavLink to="/services">services</NavLink>
         <NavLink to="/gallery">gallery</NavLink>
@@ -31,7 +31,7 @@ return(
     <div className="box">
     <h3>quick links</h3>
         <NavLink to="/">home</NavLink>
-        <NavLink to="/book">book</NavLink>
+     
         <NavLink to="/About">About us</NavLink>
         <NavLink to="/services">services</NavLink>
         <NavLink to="/gallery">gallery</NavLink>
