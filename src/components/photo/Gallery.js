@@ -8,7 +8,7 @@ import HeadTitle from "../../common/Headtitle/Headtitle";
 const Gallery=()=>{
 return(
     
-   
+   <>
   <section>
     <HeadTitle></HeadTitle>
       <h1 class="heading">
@@ -33,8 +33,10 @@ return(
         </div>
         </div>
     </div>
-    <Footer></Footer>
+ 
    </section>
+      <Footer></Footer>
+      </>
 )
 
 }
