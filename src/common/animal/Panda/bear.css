@@ -111,3 +111,11 @@
   
   
   
+   @media screen and (max-width:500px) {
+    .content h1{
+        font-size: 20px;
+    }
+    .content1 h1{
+        font-size: 20px;
+    }
+      }
